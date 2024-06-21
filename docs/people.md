@@ -32,7 +32,7 @@ import Student from '../../components/Student.vue'
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  gap: calc(1vw);
+  gap: clamp(1px, 1vw, 16.2px);
   align-items: center;
   justify-content: center;
 }
