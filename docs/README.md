@@ -3,31 +3,31 @@ home: true
 title: Home
 heroImage: images/logo.png
 actions:
-  - text: Get Started
-    link: /getting-started.html
-    type: primary
+  - text: Github
+    link: https://github.com/dartmouth-risc-lab
+    type: secondary
 
-  - text: Introduction
-    link: https://vuejs.press/guide/introduction.html
+  - text: YouTube
+    link: https://www.youtube.com/channel/UCfx79fWE4jPqSC-9RhxSkZA
     type: secondary
 
 features:
-  - title: Simplicity First
-    details: Minimal setup with markdown-centered project structure helps you focus on writing.
-  - title: Vue-Powered
-    details: Enjoy the dev experience of Vue, use Vue components in markdown, and develop custom themes with Vue.
-  - title: Performant
-    details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-  - title: Themes
-    details: Providing a default theme out of the box. You can also choose a community theme or create your own one.
-  - title: Plugins
-    details: Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site.
-  - title: Bundlers
-    details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
+  - title: Computational Photography
+    details: 
+  - title: Computer Vision
+    details:
+  - title: Rendering
+    details:
+  - title: Machine Learning
+    details:
+  - title: Hardware Acceleration
+    details:
 
 footer: MIT Licensed | Copyright © 2018-present VuePress Community
 ---
 
-This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
+This is a brief introduction to the lab.
 
-[default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page
+<!-- This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
+
+[default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page -->
