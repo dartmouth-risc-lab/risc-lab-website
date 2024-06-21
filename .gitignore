@@ -24,5 +24,4 @@ yarn-error.log*
 
 # Ignore temp and cache files
 docs/.vuepress/.temp/
-docs/.vuepress/dist/
 
