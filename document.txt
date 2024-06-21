@@ -1,0 +1,13 @@
+Document
+
+- Press "Shift + command + ." to unhide the files.
+
+- All the images should be stored in "docs/.vurpress/public/images"
+- All the videos should be stored in "docs/.vurpress/public/videos"
+
+- All the custom .vue files should be stored in "docs/.vurpress/components" started with capital letters
+
+- Add students use <Student></Student>
+- Add professors use <Professor></Professor>
+- Add papers use <Paper></Paper>
+- It's not recommended to use "Paper" for other kinds of publications. It's better to create a new custom .vue layout.

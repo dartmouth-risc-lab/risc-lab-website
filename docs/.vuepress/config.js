@@ -14,12 +14,12 @@ export default defineUserConfig({
     navbar:[
       { text: 'Home', link: '/' },
       { text: 'People', link: '/people' },
-      { text: 'Publications', link: '/publication' },
-      { text: 'Awards', link: '/award' },
+      { text: 'Publications', link: '/publications' },
+      { text: 'Awards', link: '/awards' },
     ],
     sidebar: false, // disable sidebar
     contributors: false, // disable contributors
-    
+    lastUpdated: true, // disable last updated
   }),
 
   bundler: viteBundler(),

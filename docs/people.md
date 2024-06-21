@@ -17,7 +17,7 @@
 
 ## MS Students
 <div class="flex-container">
-  <Student name="Yunzi Shi" image="/images/portrait/example.png" year="2023-2024" studentUrl="https://shiyunzi.info/Interactive-1" />
+  <Student name="Yunzi Shi" image="/images/portrait/example.png" year="2023-2024" studentUrl="https://shiyunzi.info/" />
   <Student name="Atul Agarwal" image="/images/portrait/example.png" year="2024" studentUrl="http://example.com" />
   
   <!-- Add more students... -->
