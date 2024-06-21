@@ -1,6 +1,6 @@
 <template>
     <div class="student">
-      <img :src="image" :alt="name" />
+      <img :src="$withBase(image)" :alt="name" />
       <p><a :href="studentUrl">{{ name }}</a><br>{{ year }}</p>
     </div>
   </template>

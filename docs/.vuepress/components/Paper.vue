@@ -1,6 +1,6 @@
 <template>
     <div class="paper">
-      <img :src="image" alt="Paper image" class="paper-image" />
+      <img :src="$withBase(image)" alt="Paper image" class="paper-image" />
       <div class="paper-info">
         <h4>{{ title }}</h4>
         <p class="journal">{{ journal }}</p>

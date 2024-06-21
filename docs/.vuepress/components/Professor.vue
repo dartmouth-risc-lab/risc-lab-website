@@ -1,6 +1,6 @@
 <template>
     <div class="professor">
-      <img :src="image" :alt="name" class="person-image" />
+      <img :src="$withBase(image)" :alt="name" class="person-image" />
       <div class="person-info">
         <a :href="link" class="person-name">{{ name }}</a>
         <slot></slot>
