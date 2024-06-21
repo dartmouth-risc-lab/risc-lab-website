@@ -23,4 +23,6 @@ export default defineUserConfig({
   }),
 
   bundler: viteBundler(),
+
+  // base: '/risc-lab-website/',
 })
