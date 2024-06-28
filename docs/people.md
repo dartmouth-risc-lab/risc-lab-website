@@ -17,7 +17,7 @@
 
 ## MS Students
 <div class="flex-container">
-  <Student name="Yunzi Shi" image="/images/portrait/example.png" year="2023-2024" studentUrl="https://shiyunzi.info/" />
+  <Student name="Yunzi Shi" image="/images/portrait/YS.jpg" year="2023-2024" studentUrl="https://shiyunzi.info/" />
   <Student name="Atul Agarwal" image="/images/portrait/example.png" year="2024" studentUrl="http://example.com" />
   
   <!-- Add more students... -->
@@ -32,7 +32,7 @@ import Student from '../../components/Student.vue'
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  gap: clamp(1px, 1vw, 16.2px);
+  gap: clamp(0px, calc(3vw - 32px), 16.2px);
   align-items: center;
   justify-content: center;
 }

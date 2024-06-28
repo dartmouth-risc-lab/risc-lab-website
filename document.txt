@@ -1,12 +1,9 @@
 Document
 
 - Press "Shift + command + ." to unhide the files.
-
 - All the images should be stored in "docs/.vurpress/public/images"
 - All the videos should be stored in "docs/.vurpress/public/videos"
-
 - All the custom .vue files should be stored in "docs/.vurpress/components" started with capital letters
-
 - Add students use <Student></Student>
 - Add professors use <Professor></Professor>
 - Add papers use <Paper></Paper>
@@ -16,3 +13,6 @@ Document
 SOME ATTENTIONS:
 - The website is host on: https://dartmouth-risc-lab.github.io/risc-lab-website/
 - Need to add "$withBase(path/to/your/image)" in your custom components.
+
+SCRIPTS:
+- Run locally: npm run docs:dev
