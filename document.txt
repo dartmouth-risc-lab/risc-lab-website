@@ -16,3 +16,4 @@ SOME ATTENTIONS:
 
 SCRIPTS:
 - Run locally: npm run docs:dev
+- Deploy on Github: npm run deploy
