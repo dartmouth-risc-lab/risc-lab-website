@@ -10,7 +10,7 @@ export default defineUserConfig({
   description: 'RISC Lab - Dartmouth College',
 
   theme: defaultTheme({
-    logo: '/images/logo.gif',
+    logo: '/images/D-Pine_RGB.png',
     navbar:[
       { text: 'Home', link: '/' },
       { text: 'People', link: '/people' },

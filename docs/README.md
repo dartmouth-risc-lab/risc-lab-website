@@ -5,11 +5,12 @@ heroImage: images/logo.png
 actions:
   - text: Github
     link: https://github.com/dartmouth-risc-lab
-    type: secondary
+    type: primary
 
   - text: YouTube
     link: https://www.youtube.com/channel/UCfx79fWE4jPqSC-9RhxSkZA
-    type: secondary
+    type: primary
+    # or `type: secondary`
 
 features:
   - title: Computational Photography
