@@ -15,5 +15,8 @@ SOME ATTENTIONS:
 - Need to add "$withBase(path/to/your/image)" in your custom components.
 
 SCRIPTS:
+- Github clone: git clone <your-repository-url>
+- cd <your-repository-name>
+- Install dependency: npm install
 - Run locally: npm run docs:dev
 - Deploy on Github: npm run deploy
