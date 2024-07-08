@@ -9,7 +9,7 @@
 <div class="flex-container">
   <Student name="Juhyeon Kim" image="/images/portrait/example.png" year="2022-present" studentUrl="https://juhyeonkim.netlify.app/" />
   <Student name="Sarah Friday" image="/images/portrait/SF.jpg" year="2023-present" studentUrl="https://www.linkedin.com/in/sarah-k-friday/" />
-  <Student name="Dhawal Sirikonda" image="/images/portrait/example.png" year="2023-present" studentUrl="https://scholar.google.co.in/citations?user=VCfRKJwAAAAJ&hl=en" />
+  <Student name="Dhawal Sirikonda" image="/images/portrait/example.png" year="2023-present" studentUrl="https://dhawals1939.github.io/" />
   <Student name="Quinton(Ziyuan) Qu" image="/images/portrait/QQ.jpg" year="2024-present" studentUrl="http://quintonq.top/index.php/projects/" />
   
   <!-- Add more students... -->
