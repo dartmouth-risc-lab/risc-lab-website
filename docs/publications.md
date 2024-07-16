@@ -4,7 +4,7 @@
 <Paper
   image="/images/publication/z-splat.png"
   title="Z-Splat: Z-Axis Gaussian Splatting for Camera-Sonar Fusion"
-  journal="ICCP 2024"
+  journal="ICCP 2024 (TPAMI Special Issue)"
   author="Ziyuan Qu, Omkar Vengurlekar, Mohamad Qadri, Kevin Zhang, Michael Kaess, Christopher Metzler, Suren Jayasuriya, Adithya Pediredla"
   paperUrl="https://arxiv.org/pdf/2404.04687"
   codeUrl="https://github.com/QuintonQu/gaussian-splatting-with-depth/tree/gs-depth-main"

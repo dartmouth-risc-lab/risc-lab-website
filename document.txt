@@ -20,3 +20,5 @@ SCRIPTS:
 - Install dependency: npm install
 - Run locally: npm run docs:dev
 - Deploy on Github: npm run deploy
+- change "base" in [config.js] depended on where you want to publish
+- copy all the files from [/GitHub/risc-lab-website/docs/.vuepress/dist] to the [dartfs/publish_html] folder to update the website on the dartmouth server.
