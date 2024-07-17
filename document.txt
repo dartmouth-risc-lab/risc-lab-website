@@ -9,16 +9,18 @@ Document
 - Add papers use <Paper></Paper>
 - It's not recommended to use "Paper" for other kinds of publications. It's better to create a new custom .vue layout.
 
-
 SOME ATTENTIONS:
-- The website is host on: https://dartmouth-risc-lab.github.io/risc-lab-website/
+- The website is host on: https://dartmouth-risc-lab.github.io/risc-lab-website/ and https://rcweb.dartmouth.edu/RISCLab/ 
 - Need to add "$withBase(path/to/your/image)" in your custom components.
 
 SCRIPTS:
 - Github clone: git clone <your-repository-url>
 - cd <your-repository-name>
 - Install dependency: npm install
+- Build locally: npm run docs:build
 - Run locally: npm run docs:dev
 - Deploy on Github: npm run deploy
-- change "base" in [config.js] depended on where you want to publish
-- copy all the files from [/GitHub/risc-lab-website/docs/.vuepress/dist] to the [dartfs/publish_html] folder to update the website on the dartmouth server.
+
+DEPLOY INSTRUCTIONS:
+- Switch "base" in [config.js] depended on where you want to publish
+- Copy all the files from [/GitHub/risc-lab-website/docs/.vuepress/dist] to the [dartfs/publish_html] folder to update the website on the dartmouth server.

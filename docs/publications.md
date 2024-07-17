@@ -23,7 +23,9 @@
   title="Snapshot Lidar: Fourier Embedding of Amplitude and Phase for Single-Image Depth Reconstruction"
   journal="CVPR 2024"
   author="Sarah Friday, Yunzi Shi, Yaswanth Cherivirala, Vishwanath Saragadam, Adithya Pediredla"
+  projectUrl="https://sarahkfriday.github.io/snapshot-lidar/"
   paperUrl="https://openaccess.thecvf.com/content/CVPR2024/papers/Friday_Snapshot_Lidar_Fourier_Embedding_of_Amplitude_and_Phase_for_Single-Image_CVPR_2024_paper.pdf"
+  codeUrl="https://github.com/dartmouth-risc-lab/snapshot-lidar"
 />
 
 <Paper
