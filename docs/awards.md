@@ -17,7 +17,7 @@
 
 <Award
     recipient="Yunzi Shi"
-    award="Best MSDA Master's Thesis Award"
+    award="MSDA Outstanding Thesis Awards"
     year="2024"
 />
 
