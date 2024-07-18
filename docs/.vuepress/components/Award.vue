@@ -27,7 +27,7 @@
     border-top: 2px solid #00693e; 
     }
 
-.award:nth-child(even) {
+/* .award:nth-child(even) {
   background-color: #00693e;
   color: white;
 }
@@ -45,7 +45,7 @@ html.dark .award:nth-child(even) {
 html.dark .award:nth-child(odd) {
   background-color: inherit;
   color: var(--c-brand-light);
-}
+} */
 
   .award-content {
     display: flex;
