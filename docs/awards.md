@@ -22,6 +22,12 @@
 />
 
 <Award
+    recipient="Yunzi Shi"
+    award="ICCP 2024 Student Travel Award"
+    year="2024"
+/>
+
+<Award
     recipient="Adithya Pediredla"
     award="NSF CAREER Award (THIS IS A TEST)"
     level="National"
