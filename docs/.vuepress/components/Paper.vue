@@ -1,44 +1,44 @@
 <template>
-    <div class="paper">
-      <img :src="$withBase(image)" alt="Paper image" class="paper-image" />
-      <div class="paper-info">
-        <a :href="projectUrl" v-if="projectUrl" class="title-link">
-          <h4>{{ title }}</h4>
-        </a>
-        <h4 v-else>{{ title }}</h4>
-        <p class="journal">{{ journal }}</p>
-        <p>{{ author }}</p>
-        <p>
-          <span v-if="projectUrl">
-            <a :href="projectUrl">Project</a> |
-          </span>
-          <span v-if="codeUrl">
-            <a :href="codeUrl">Code</a> |
-          </span>
-          <span v-if="paperUrl">
-            <a :href="paperUrl">PDF</a>
-          </span>
-        </p>
-      </div>
+  <div class="paper">
+    <img :src="$withBase(image)" alt="Paper image" class="paper-image" />
+    <div class="paper-info">
+      <a :href="projectUrl" v-if="projectUrl" class="title-link">
+        <h4>{{ title }}</h4>
+      </a>
+      <h4 v-else>{{ title }}</h4>
+      <p class="journal">{{ journal }}</p>
+      <p>{{ author }}</p>
+      <p>
+        <span v-if="projectUrl">
+          <a :href="projectUrl">Project</a> |
+        </span>
+        <span v-if="codeUrl">
+          <a :href="codeUrl">Code</a> |
+        </span>
+        <span v-if="paperUrl">
+          <a :href="paperUrl">PDF</a>
+        </span>
+      </p>
     </div>
-  </template>
-  
-  <script>
-  export default {
-    name: 'Paper',
-    props: ['image', 'title', 'journal', 'author', 'projectUrl', 'codeUrl', 'paperUrl'],
-    mounted() {
-        console.log('Paper component has been mounted!');
-    },
-  }
-  </script>
-  
-  <style scoped>
-  .theme-default-content .paper {
-    display: flex;
-    align-items: center; 
-    margin-bottom: 1em;
-  }
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'Paper',
+  props: ['image', 'title', 'journal', 'author', 'projectUrl', 'codeUrl', 'paperUrl'],
+  mounted() {
+      console.log('Paper component has been mounted!');
+  },
+}
+</script>
+
+<style scoped>
+.theme-default-content .paper {
+  display: flex;
+  align-items: center; 
+  margin-bottom: 1em;
+}
   
 .theme-default-content .paper-image {
   width: 120px;
