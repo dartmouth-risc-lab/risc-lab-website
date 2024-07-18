@@ -15,11 +15,15 @@
     year="2024"
 />
 
+---
+
 <Award
     recipient="Yunzi Shi"
     award="MSDA Outstanding Thesis Awards"
     year="2024"
 />
+
+---
 
 <Award
     recipient="Yunzi Shi"
@@ -28,13 +32,10 @@
     year="2024"
 />
 
-<Award
-    recipient="Adithya Pediredla"
-    award="NSF CAREER Award (THIS IS A TEST)"
-    level="National"
-    url="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2250001"
-    year="2024"
-/>
+---
+
+
+
 
 
 <script setup>
@@ -46,6 +47,7 @@ import Award from '../../components/Award.vue'
   font-size: 1.25em; 
   font-weight: bold; 
   line-height: 1.5;
+  border-bottom: 2px solid #00693e;
 }
 
 .award-table {
@@ -72,4 +74,5 @@ import Award from '../../components/Award.vue'
   display: table-cell;
   width: 10%;
 }
+
 </style>

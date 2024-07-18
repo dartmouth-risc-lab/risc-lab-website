@@ -7,7 +7,11 @@
       </a>
       <h4 v-else>{{ title }}</h4>
       <p class="journal">{{ journal }}</p>
-      <p>{{ author }}</p>
+      <p>
+        <span v-for="(name, index) in author.split(', ')" :key="index">
+          <span :class="{ bold: isBold(name) }">{{ name }}</span><span v-if="index < author.split(', ').length - 1">, </span>
+        </span>
+      </p>
       <p>
         <span v-if="projectUrl">
           <a :href="projectUrl">Project</a> |
@@ -29,6 +33,12 @@ export default {
   props: ['image', 'title', 'journal', 'author', 'projectUrl', 'codeUrl', 'paperUrl'],
   mounted() {
       console.log('Paper component has been mounted!');
+  },
+  methods: {
+    isBold(name) {
+      const boldNames = ['Ziyuan Qu', 'Juhyeon Kim', 'Adithya Pediredla', 'Yunzi Shi', 'Sarah Friday'];
+      return boldNames.includes(name);
+    },
   },
 }
 </script>
@@ -80,5 +90,9 @@ export default {
 
   .title-link::after {
     content: none !important;
+  }
+
+  .bold {
+  font-weight: bold;
   }
   </style>

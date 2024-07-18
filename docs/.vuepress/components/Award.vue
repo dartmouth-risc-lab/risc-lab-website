@@ -23,11 +23,10 @@
   </script>
   
   <style scoped>
-    .award {
-    border-top: 2px solid #00693e; 
-    }
-
-/* .award:nth-child(even) {
+  /* .award {
+  border-top: 2px solid #00693e; 
+  }
+  .award:nth-child(even) {
   background-color: #00693e;
   color: white;
 }

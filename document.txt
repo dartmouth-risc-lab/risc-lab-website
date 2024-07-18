@@ -8,6 +8,7 @@ Document
 - Add professors use <Professor></Professor>
 - Add papers use <Paper></Paper>
 - It's not recommended to use "Paper" for other kinds of publications. It's better to create a new custom .vue layout.
+- Add bold name of Papers here in [Paper.vue]: const boldNames = ['Ziyuan Qu', 'Juhyeon Kim', 'Adithya Pediredla', 'Yunzi Shi', 'Sarah Friday'];
 
 SOME ATTENTIONS:
 - The website is host on: https://dartmouth-risc-lab.github.io/risc-lab-website/ and https://rcweb.dartmouth.edu/RISCLab/ 

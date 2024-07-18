@@ -32,3 +32,11 @@ This is a brief introduction to the lab.
 <!-- This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
 
 [default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page -->
+
+---
+#### **Our research has been generously funded by the following organizations:**
+<br/>
+<div style="text-align: center;">
+  <img src="/images/funding/NSF.png" alt="NSF Logo" style="width: 10%;"/>
+</div>
+<br/>
