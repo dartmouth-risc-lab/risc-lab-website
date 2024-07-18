@@ -26,6 +26,7 @@
   /* .award {
   border-top: 2px solid #00693e; 
   }
+
   .award:nth-child(even) {
   background-color: #00693e;
   color: white;
@@ -49,7 +50,8 @@ html.dark .award:nth-child(odd) {
   .award-content {
     display: flex;
     justify-content: space-between;
-    line-height: 1.5;
+    line-height: 1;
+    margin: 0.5em 0;
   }
 
   .year {
@@ -71,6 +73,7 @@ html.dark .award:nth-child(odd) {
   .link {
     color: inherit; 
     text-decoration: none !important; 
+    font-weight: normal;
   }
   
   .link:hover {

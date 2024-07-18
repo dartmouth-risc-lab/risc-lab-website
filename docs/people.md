@@ -17,8 +17,8 @@
 
 ## MS Students
 <div class="flex-container">
-  <Student name="Atul Agarwal" image="/images/portrait/example.png" year="2024-present" studentUrl="http://example.com" />
-  <Student name="Kedari Chowtoori" image="/images/portrait/example.png" year="2024-present" studentUrl="http://example.com" />
+  <Student name="Atul Agarwal" image="/images/portrait/example.png" year="2024-present"  />
+  <Student name="Kedari Chowtoori" image="/images/portrait/example.png" year="2024-present"  />
   
   <!-- Add more students... -->
 </div>

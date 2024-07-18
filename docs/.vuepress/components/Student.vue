@@ -1,7 +1,11 @@
 <template>
     <div class="student">
       <img :src="$withBase(image)" :alt="name" />
-      <p><a :href="studentUrl">{{ name }}</a><br>{{ year }}</p>
+      <p>
+        <a v-if="studentUrl" :href="studentUrl">{{ name }}</a>
+        <span v-else>{{ name }}</span>
+        <br>{{ year }}
+      </p>
     </div>
   </template>
   
