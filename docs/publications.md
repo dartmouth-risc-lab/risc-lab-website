@@ -20,7 +20,7 @@
 
 ## 2023
 <Paper
-  image="/images/publication/example.png"
+  image="/images/publication/snapshot-thumbnail.png"
   title="Snapshot Lidar: Fourier Embedding of Amplitude and Phase for Single-Image Depth Reconstruction"
   journal="CVPR 2024"
   author="Sarah Friday, Yunzi Shi, Yaswanth Cherivirala, Vishwanath Saragadam, Adithya Pediredla"

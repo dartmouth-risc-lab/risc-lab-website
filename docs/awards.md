@@ -24,6 +24,7 @@
 <Award
     recipient="Yunzi Shi"
     award="ICCP 2024 Student Travel Award"
+    url="https://iccp-conference.org/iccp2024/student-travel-award/"
     year="2024"
 />
 
