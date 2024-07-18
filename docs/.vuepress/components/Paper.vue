@@ -2,7 +2,10 @@
     <div class="paper">
       <img :src="$withBase(image)" alt="Paper image" class="paper-image" />
       <div class="paper-info">
-        <h4>{{ title }}</h4>
+        <a :href="projectUrl" v-if="projectUrl" class="title-link">
+          <h4>{{ title }}</h4>
+        </a>
+        <h4 v-else>{{ title }}</h4>
         <p class="journal">{{ journal }}</p>
         <p>{{ author }}</p>
         <p>
@@ -64,5 +67,18 @@
   .journal {
     font-style: italic;
     color: #888888;
+  }
+
+  .title-link {
+    color: inherit; 
+    text-decoration: none !important; 
+  }
+  .title-link:hover {
+    color: inherit; 
+    text-decoration: underline !important; 
+  }
+
+  .title-link::after {
+    content: none !important;
   }
   </style>
