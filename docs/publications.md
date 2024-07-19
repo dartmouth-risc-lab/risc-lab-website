@@ -12,10 +12,13 @@
 />
 
 <Paper
-  image="/images/publication/example.png"
+  image="/images/publication/efficient-time-sampling.png"
   title="Efficient Time Sampling Strategy for Transient Absorption Spectroscopy"
   journal="ICCP 2024"
-  author="TBD"
+  author="Juhyeon Kim, Joshua Multhaup, Mahima Sneha, Adithya Pediredla"
+  projectUrl="https://juhyeonkim95.github.io/project-pages/transient_absorption_spectroscopy/"
+  paperUrl="https://juhyeonkim95.github.io/project-pages/transient_absorption_spectroscopy/static/pdfs/TASICCP2024.pdf"
+  codeUrl="https://github.com/juhyeonkim95/TransientAbsorptionSpectroscopy"
 />
 
 <Paper

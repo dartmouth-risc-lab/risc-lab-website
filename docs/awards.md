@@ -34,7 +34,15 @@
 
 ---
 
+<Award
+    recipient="Sarah Friday"
+    award="NECV 2023 Best Poster"
+    url="https://necv2023.github.io/"
+    year="2023"
+    level="Honorable Mention"
+/>
 
+---
 
 
 
